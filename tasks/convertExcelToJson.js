@@ -16,7 +16,7 @@ module.exports = function(grunt) {
   //  convertExcelToJson1: {
   //    dist: {
   //      files: [
-  //        {src: 'data/row-oriented.xlsx', dst: 'tmp/row-oriented.json', isColOriented: false}
+  //        {src: 'data/row-oriented.xlsx', dst: 'tmp/row-oriented.json', options: {isColumnsOriented: false}}
   //      ]
   //    },
   // so this.target will be 'dist' and this.data will be
@@ -26,7 +26,7 @@ module.exports = function(grunt) {
   //        "data/row-oriented.xlsx"
   //      ],
   //      "dst": "tmp/row-oriented.json",
-  //      "isColOriented": false
+  //      "options": {"isColumnsOriented": false}
   //    }]}
   grunt.registerMultiTask('convertExcelToJson', 'Convert Excel files to JSON files', function() {
     // Is configuration sane?
@@ -55,7 +55,7 @@ module.exports = function(grunt) {
       }
 
       // Convert a single file asynchronously
-      convertExcel(f.src[0], f.dst, f.isColOriented, function(err, data) {
+      convertExcel(f.src[0], f.dst, f.options, function(err, data) {
         if(err) {
           grunt.fail.warn('excel-as-json error: ' + err);
         }
