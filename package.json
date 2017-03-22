@@ -1,18 +1,25 @@
 {
-  "name": "grunt-excel-as-json",
+  "name": "@mrbatista/grunt-excel-as-json",
   "description": "Convert Excel files to JSON files",
-  "version": "1.0.1",
-  "homepage": "https://github.com/stevetarver/grunt-excel-as-json",
+  "version": "2.0.0",
+  "homepage": "https://github.com/mrbatista/grunt-excel-as-json",
   "author": {
     "name": "Steve Tarver",
     "email": "steve.tarver@gmail.com"
   },
+  "contributors": [
+    {
+      "name": "Matteo Padovano",
+      "email": "mrba7ista@gmail.com",
+      "url": "https://github.com/mrbatista"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stevetarver/grunt-excel-as-json.git"
+    "url": "git+https://github.com/mrbatista/grunt-excel-as-json.git"
   },
   "bugs": {
-    "url": "https://github.com/stevetarver/grunt-excel-as-json/issues"
+    "url": "https://github.com/mrbatista/grunt-excel-as-json/issues"
   },
   "license": "MIT",
   "engines": {
@@ -22,7 +29,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "excel-as-json": "1.0.3"
+    "excel-as-json": "mrbatista/excel-as-json#2.0.0"
   },
   "devDependencies": {
     "grunt": "~1.0.1",
@@ -39,6 +46,6 @@
     "Excel",
     "JSON",
     "convert",
-    "excel-as-json"
+    "excel-to-json"
   ]
 }
