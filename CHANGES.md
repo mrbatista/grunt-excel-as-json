@@ -1,3 +1,9 @@
+2017-03-26, Version 2.2.2
+=========================
+
+ * update dependency to support semver notation (Matteo Padovano)
+
+
 2017-03-26, Version 2.2.1
 =========================
 
