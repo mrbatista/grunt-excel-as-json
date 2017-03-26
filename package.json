@@ -29,7 +29,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "excel-as-json": "mrbatista/excel-as-json#2.0.0"
+    "excel-as-json": "mrbatista/excel-as-json#2.2.1"
   },
   "devDependencies": {
     "grunt": "~1.0.1",
