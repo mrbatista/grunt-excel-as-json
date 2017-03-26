@@ -1,10 +1,10 @@
-[![tag:?](https://img.shields.io/github/tag/stevetarver/grunt-excel-as-json.svg)](https://github.com/stevetarver/grunt-excel-as-json/releases)
+[![tag](https://img.shields.io/github/tag/mrbatista/grunt-excel-as-json.svg)](https://github.com/mrbatista/grunt-excel-as-json/releases)
+[![build](https://img.shields.io/travis/mrbatista/grunt-excel-as-json/master.svg)](https://travis-ci.org/mrbatista/grunt-excel-as-json)
 [![license:mit](https://img.shields.io/badge/license-mit-green.svg)](#license)
-[![build:?](https://img.shields.io/travis/stevetarver/grunt-excel-as-json/master.svg)](https://travis-ci.org/stevetarver/grunt-excel-as-json)
 <br>
-[![npm:](https://img.shields.io/npm/v/grunt-excel-as-json.svg)](https://www.npmjs.com/package/grunt-excel-as-json)
-[![dependencies:?](https://img.shields.io/david/stevetarver/grunt-excel-as-json.svg)](https://david-dm.org/stevetarver/grunt-excel-as-json.svg)
-[![devDependency Status](https://david-dm.org/stevetarver/grunt-excel-as-json/dev-status.svg)](https://david-dm.org/stevetarver/grunt-excel-as-json#info=devDependencies)
+[![npm](https://img.shields.io/npm/v/@mrbatista/grunt-excel-as-json.svg)](https://www.npmjs.com/package/@mrbatista/grunt-excel-as-json)
+[![dependencies](https://img.shields.io/david/mrbatista/grunt-excel-as-json.svg)](https://david-dm.org/mrbatista/grunt-excel-as-json.svg)
+[![devDependency Status](https://david-dm.org/mrbatista/grunt-excel-as-json/dev-status.svg)](https://david-dm.org/mrbatista/grunt-excel-as-json#info=devDependencies)
 
 # grunt-excel-as-json
 
@@ -18,7 +18,7 @@ out the [Getting Started](http://gruntjs.com/getting-started) guide, as it expla
 as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install grunt-excel-as-json --save-dev
+npm install @mrbatista/grunt-excel-as-json --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
