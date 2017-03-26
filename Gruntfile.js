@@ -32,8 +32,15 @@ module.exports = function(grunt) {
     convertExcelToJson: {
       dist: {
         files: [
-          {src: 'test/fixtures/row-oriented.xlsx', dst: 'tmp/row-oriented.json'},
-          {src: 'test/fixtures/col-oriented.xlsx', dst: 'tmp/col-oriented.json', isColOriented: true}
+          {
+            src: 'test/fixtures/row-oriented.xlsx',
+            dst: 'tmp/row-oriented.json'
+          },
+          {
+            src: 'test/fixtures/col-oriented.xlsx',
+            dst: 'tmp/col-oriented.json',
+            options: {isColumnsOriented: true}
+          }
         ]
       }
     },

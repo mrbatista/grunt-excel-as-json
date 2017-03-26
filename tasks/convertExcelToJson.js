@@ -8,7 +8,7 @@
 
 'use strict';
 var path = require('path');
-var convertExcel = require('excel-as-json').processFile;
+var convertExcel = require('@mrbatista/excel-as-json').processFile;
 
 module.exports = function(grunt) {
 
